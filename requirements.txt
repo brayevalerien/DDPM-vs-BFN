@@ -1,0 +1,7 @@
+fire
+matplotlib
+pytorch-fid
+pytorch-gan-metrics
+tensorboard
+torch-ema
+tqdm
