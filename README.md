@@ -41,7 +41,7 @@ Another crucial criteria when choosing a model that has the potential of becomin
 The following table summarizes the setup and hyperparameters we used for training our models.
 |                  | DDPM MNIST         | DDPM CIFAR10           | BFN MNIST              | BFN CIFAR10            |
 | ---------------- | ------------------ | ---------------------- | ---------------------- | ---------------------- |
-| Device           | NVIDIA RTX 3070 Ti | NVIDIA Quadro RTX 6000 | NVIDIA Quadro RTX 6000 | NVIDIA Quadro RTX 6000 |
+| Device           | NVIDIA RTX 3070 Ti | NVIDIA Quadro RTX 6000 | NVIDIA RTX 3070 Ti     | NVIDIA Quadro RTX 6000 |
 | Number of epochs | 500                | 500                    | 500                    | 500                    |
 | Learning rate    | 0.0003             | 0.0003                 | 0.0001                 | 0.0001                 |
 | Batch size       | 32                 | 128                    | 1                      | 1                      |
@@ -49,7 +49,7 @@ The following table summarizes the setup and hyperparameters we used for trainin
 
 The architecture of the models remained the same between the two datasets, but the $\sigma$ hyperparameter of the BFN were set to different values for MNIST and CIFAR10 (MNIST being in black and white):
 - $\sigma_{\text{MNIST}} = 0.5$
-- $\sigma_{\text{MNIST}} = 0.032$
+- $\sigma_{\text{CIFAR10}} = 0.032$
 
 
 ## Results
